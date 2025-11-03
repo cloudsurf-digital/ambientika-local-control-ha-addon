@@ -2,7 +2,7 @@ name: Ambientika Local Control
 version: "1.0.41"
 slug: ambientika_local_control
 description: Local control for Ambientika devices with MQTT integration (based on ambientika-local-control by sragas)
-url: https://github.com/alexlenk/ambientika-local-control-ha-addon
+url: https://github.com/cloudsurf-digital/ambientika-local-control-ha-addon
 image: "ghcr.io/alexlenk/ambientika-local-control-ha-addon-{arch}"
 arch:
   - aarch64
@@ -45,4 +45,4 @@ schema:
   local_socket_port: int(1,65535)
   udp_broadcast_start_port: int(1,65535)
   log_level: list(silly|debug|info|warn|error)?
-source_url: https://github.com/sragas/ambientika-local-control
+source_url: https://github.com/cloudsurf-digital/ambientika-local-control
